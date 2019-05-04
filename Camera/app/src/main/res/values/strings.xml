@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CameraTest</string>
+    <string name="rediotime">时间: %1s</string>
+</resources>

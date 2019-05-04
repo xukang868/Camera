@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SurfaceView
+        android:id="@+id/showPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.xiaohan.cameratest.view.FaceRectView
+        android:id="@+id/FaceRect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/turnCamera"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_turncmera_selector"/>
+
+    <Button
+        android:id="@+id/openFlash"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/camera_flash_off"/>
+
+    <SeekBar
+        android:id="@+id/changeZoom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:max="100"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:id="@+id/radioTime"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="#99333333"
+        android:textColor="@color/yellow"/>
+
+    <ImageView
+        android:id="@+id/detectFace"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        android:id="@+id/takePicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="3dp"
+        android:background="@mipmap/ic_camera"/>
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="40dp"
+        android:background="@mipmap/video_icon"/>
+</FrameLayout>
