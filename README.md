@@ -5,14 +5,14 @@ Android Camera (Native and System), Album, Face Detection and Video Recording
   
   1.拍照
     
-    调用系统相机 获取拍照信息（缩率图或大图的拍照信息，兼容7.0以上版本），并显示；
+   调用系统相机 获取拍照信息（缩率图或大图的拍照信息，兼容7.0以上版本），并显示；
     
     
  二、原生相册使用
    
    1.相册
     
-    调用系统相册获取相册资源，并显示；
+   调用系统相册获取相册资源，并显示；
    
    
 三、Camera
